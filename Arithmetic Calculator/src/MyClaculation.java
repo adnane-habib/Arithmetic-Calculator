@@ -3,6 +3,7 @@ public class MyClaculation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		Scanner myScan = new Scanner(System.in);
 		System.out.print("Enter the first operand : ");
 		float alpha = myScan.nextFloat();
@@ -16,7 +17,8 @@ public class MyClaculation {
 		
 		System.out.println("Your result is : "+alpha);
 		System.out.println("Your result is : "+beta);
-
+		
+		//The object automatically displays the result once the object is initiated 
 		Calculator myCalculation = new Calculator (alpha, beta, operation);
 
 	}
